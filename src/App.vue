@@ -1,9 +1,26 @@
 <script>
+import Header from './components/Header.vue';
+import Hero from './components/Hero.vue';
+import Info from './components/Info.vue';
+import Article from './components/Article.vue';
+import Footer from './components/Footer.vue';
 export default {
-  components: {},
+  components: {
+    Header,
+    Hero,
+    Info,
+    Article,
+    Footer,
+  },
 };
 </script>
 
 <template>
-  <h1 class="">Testing</h1>
+  <Header />
+  <main class="mt-[70px]">
+    <Hero />
+    <Info />
+    <Article />
+  </main>
+  <Footer />
 </template>

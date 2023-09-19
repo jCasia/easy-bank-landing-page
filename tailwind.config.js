@@ -3,10 +3,22 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      colors: {},
-      fontFamily: {},
+      colors: {
+        colorDarkBlue: 'hsl(233, 26%, 24%)',
+        colorLimeGreen: 'hsl(136, 65%, 51%)',
+        colorBrightCyan: 'hsl(192, 70%, 51%)',
+        colorGrayBlue: 'hsl(233, 8%, 62%)',
+        colorLightGrayBlue: 'hsl(220, 16%, 96%)',
+        colorLightGray: 'hsl(0, 0%, 98%)',
+        colorWhite: 'hsl(0, 0%, 100%)',
+      },
+      fontFamily: {
+        fontPubSans: ['Public Sans', 'sans serif'],
+      },
     },
-    screens: {},
+    screens: {
+      mobilelg: '700px',
+    },
   },
 
   plugins: [],
