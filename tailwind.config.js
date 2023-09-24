@@ -17,7 +17,7 @@ export default {
       },
     },
     screens: {
-      mobilelg: '700px',
+      tabletsm: '700px',
     },
   },
 
