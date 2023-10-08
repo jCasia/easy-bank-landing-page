@@ -32,7 +32,7 @@ export const servicesData = [
   },
   {
     heading: 'Open API',
-    text: 'Manage your savings, investments,pensions, and much more from one account. TRacking your money has never been easier.',
+    text: 'Manage your savings, investments, pensions, and much more from one account. Tracking your money has never been easier.',
     image: apiIcon,
   },
 ];

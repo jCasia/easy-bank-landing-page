@@ -20,10 +20,12 @@ export default {
     @click="setIsMenuOpen"
   ></div>
   <div
-    class="bg-colorWhite absolute top-20 left-4 w-[90%] py-6 flex justify-center items-center rounded-lg shadow-lg tabletsm:hidden transition-all duration-500"
+    class="bg-colorWhite absolute top-20 left-4 w-[90%] py-6 flex justify-center items-center rounded-lg shadow-lg tabletsm:hidden transition-all duration-500 mobilemd:left-6 mobilemd:top-24"
     :class="animateMenu"
   >
-    <ul class="flex flex-col gap-4 text-center">
+    <ul
+      class="flex flex-col gap-4 text-center mobilemd:text-2xl mobilemd:gap-7"
+    >
       <li v-for="link in links" @click="setIsMenuOpen">
         <a href="#">{{ link }}</a>
       </li>

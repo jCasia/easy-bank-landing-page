@@ -40,9 +40,15 @@ export default {
       :setIsMenuOpen="setIsMenuOpen"
     />
     <!-- desktop -->
-    <ul class="hidden tabletsm:flex tabletsm:gap-4">
-      <li v-for="(link, index) in linksList" :key="index">
-        <a href="#">{{ link }}</a>
+    <ul
+      class="hidden tabletsm:flex tabletsm:gap-4 text-sm text-colorGrayBlue laptopsm:gap-8"
+    >
+      <li v-for="(link, index) in linksList" :key="index" class="relative">
+        <a
+          href="#"
+          class="hover:text-colorDarkBlue after:content-[&quot;&quot;] after:bg-colorLimeGreen after:w-0 after:h-1 after:absolute after:-bottom-[25px] after:left-0 hover:after:w-full after:transition-all after:duration-300"
+          >{{ link }}</a
+        >
       </li>
     </ul>
   </nav>

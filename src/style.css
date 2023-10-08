@@ -9,3 +9,8 @@
     @apply font-fontPubSans;
   }
 }
+
+body,
+html {
+  overflow-x: hidden;
+}

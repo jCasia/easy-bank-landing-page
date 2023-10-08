@@ -17,7 +17,12 @@ export default {
       },
     },
     screens: {
-      tabletsm: '700px',
+      mobilemd: '500px',
+      tabletsm: '675px',
+      tabletlg: '850px',
+      laptopsm: '1024px',
+      laptop: '1200px',
+      desktop: '1550px',
     },
   },
 
